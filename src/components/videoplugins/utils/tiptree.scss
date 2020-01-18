@@ -1,0 +1,46 @@
+.vjs-tip-container {
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    width: 150px;
+}
+
+.vjs-treeview-container {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: lightgray;
+    opacity: 0;
+    ul, #tree-id {
+        list-style-type: none;
+    }
+
+    #tree-id {
+        margin: 0;
+        padding: 0;
+    }
+
+    .caret {
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .caret::before {
+        content: "\25B6";
+        color: black;
+        display: inline-block;
+        margin-right: 6px;
+    }
+
+    .caret-down::before {
+        transform: rotate(90deg);
+    }
+
+    .nested {
+        display: none;
+    }
+
+    .active {
+        display: block;
+    }
+}

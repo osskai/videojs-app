@@ -1,0 +1,49 @@
+.vjs-sticky-parent {
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 1500;
+  display: flex;
+  flex-direction: row;
+  .vjs-sticky-button {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.4285;
+    border-radius: 15px;
+  }
+  .vjs-sticky-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    opacity: 0;
+    .vjs-sticky-content {
+      display: flex;
+      flex-direction: column;
+      .card {
+        padding: 8px;
+        background-color: #fff;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15);
+      }
+    }
+    .vjs-check-cancel {
+      position: relative;
+      top: -15px;
+      font-size: 12px;
+      font-style: normal;
+      text-align: center;
+      height: 18px;
+      width: 18px;
+      padding: 6px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+  }
+}
