@@ -5202,9 +5202,9 @@ no-case@^2.2.0:
     lower-case "^1.1.1"
 
 node-fetch@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
-  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-forge@0.9.0:
   version "0.9.0"
@@ -7992,11 +7992,6 @@ videojs-font@3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/videojs-font/-/videojs-font-3.2.0.tgz#212c9d3f4e4ec3fa7345167d64316add35e92232"
   integrity sha512-g8vHMKK2/JGorSfqAZQUmYYNnXmfec4MLhwtEFS+mMs2IDY398GLysy6BH6K+aS1KMNu/xWZ8Sue/X/mdQPliA==
-
-videojs-resolution-switcher@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/videojs-resolution-switcher/-/videojs-resolution-switcher-0.4.2.tgz#53ef38c58e95b90a61a7452de8177ee838a26405"
-  integrity sha1-U+84xY6VuQphp0Ut6Bd+6DiiZAU=
 
 videojs-vtt.js@^0.14.1:
   version "0.14.1"
